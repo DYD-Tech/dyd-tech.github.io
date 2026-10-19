@@ -3,54 +3,214 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>极轻浏览器 · DYD Tech</title>
-<meta name="description" content="极轻浏览器：Android 和 Windows 上的免费浏览器，工具栏悬浮、占用低、启动快。DYD Tech 也接浏览器定制，做品牌外观、指定功能和企业统一管控。">
+<title>懂一点实验室 · DYD Lab</title>
+<meta name="description" content="懂一点实验室（DYD Lab）：小而美的独立软件开发、技术原理拆解，以及关于数字生活秩序的极简随笔。主产品是极轻浏览器，支持 Windows 与 Android。">
 <link rel="stylesheet" href="assets/style.css">
 <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
 </head>
-<body class="stage">
+<body>
 <a class="skip" href="#main">跳到正文</a>
+
+<!-- 下面这些地址目前都还没有真实页面，先占位：
+     · 极轻浏览器下载页（导航、卡片、下载按钮三处）
+     · RSS 订阅源
+     · 页脚邮箱 hello@example.com
+     找到真实地址后整站替换。 -->
 
 <header class="masthead">
   <div class="pill">
-    <a class="mark" href="index.html">DYD<span>.</span>Tech</a>
+    <a class="brand" href="index.html" aria-label="懂一点实验室 首页">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <rect x="2.5" y="2.5" width="19" height="19" rx="4.5"/>
+        <rect x="6.5" y="6.5" width="4" height="4" fill="currentColor" stroke="none"/>
+        <rect x="6.5" y="13.2" width="11" height="4.2" rx="1" style="fill:var(--hi)"/>
+      </svg>
+      <span class="name">懂一点实验室</span>
+      <span class="sub">· DYD Lab</span>
+    </a>
     <nav class="nav" aria-label="站内导航">
       <a href="index.html" aria-current="page">首页</a>
-      <span class="soon">产品</span>
-      <a href="custom.html">定制浏览器</a>
-      <a href="#contact">联系</a>
+      <a href="#browser">极轻浏览器</a>
+      <a href="#divisions">懂一点科技</a>
+      <a href="#divisions">懂一点研究所</a>
+      <a href="#divisions">懂一点就够了</a>
+      <a href="#contact">联系我们</a>
     </nav>
   </div>
 </header>
 
 <main id="main">
-  <section class="hero">
-    <div class="wrap hero-grid">
-      <div class="hero-top">
-        <h1>极轻浏览器</h1>
-        <ul class="specs">
-          <li>Android</li>
-          <li>Windows</li>
-          <li>免费</li>
-        </ul>
-      </div>
-      <p class="claim">工具栏悬浮，滑动时收起，屏幕上只剩网页。</p>
-      <p class="note">占用低、启动快，带阅读器、Markdown 笔记、文件互传。也接定制：换成你的品牌和图标、加你需要的功能、给公司做统一管控的办公浏览器。</p>
+
+  <section class="center">
+    <div class="wrap wrap-narrow hero">
+      <span class="tag"><span class="dot"></span>懂一点实验室 · DYD Lab</span>
+      <h1>保持轻盈的好奇心，<br><span class="hi">懂一点就够了。</span></h1>
+      <p class="lede">小而美的独立软件开发、硬核技术原理拆解，以及关于数字生活秩序的极简随笔。</p>
       <div class="actions">
-        <a class="btn" href="custom.html">看能定制什么</a>
-        <a class="link-plain" href="#contact">联系我</a>
+        <a class="btn btn-ink" href="#divisions">探索三大板块
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4.5v14M6 13l6 6 6-6"/></svg>
+        </a>
+        <a class="btn btn-line" href="#browser">极轻浏览器
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M3.6 12h16.8M12 3.5c2.4 2.6 2.4 14.4 0 17M12 3.5c-2.4 2.6-2.4 14.4 0 17"/></svg>
+        </a>
       </div>
     </div>
   </section>
+
+  <section class="band" id="divisions">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="eyebrow">01 / Divisions</span>
+        <h2>三大核心探索板块</h2>
+      </div>
+      <div class="grid3">
+
+        <article class="panel card">
+          <span class="icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4.5" width="18" height="15" rx="2"/><path d="M7 10l3 2.5L7 15M12.5 15h4.5"/></svg>
+          </span>
+          <div class="body">
+            <span class="eyebrow">Dev &amp; Tools</span>
+            <h3>懂一点科技</h3>
+            <p>独立研发轻巧、克制、无负担的实用数字工具，把使用掌控权交还给用户。</p>
+          </div>
+          <div class="foot">
+            <span class="who">代表作：极轻浏览器</span>
+            <a href="#browser">查看 ↗</a>
+          </div>
+        </article>
+
+        <article class="panel card">
+          <span class="icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4.5 4.5v15h15"/><path d="M8 16l3.5-5 3 2.6L20 7"/></svg>
+          </span>
+          <div class="body">
+            <span class="eyebrow">Research &amp; Review</span>
+            <h3>懂一点研究所</h3>
+            <p>前沿科技原理与优质硬件底层拆解，用极简图解讲透逻辑，拒绝玄学黑盒。</p>
+          </div>
+          <div class="foot">
+            <span class="who">图文深度评测</span>
+            <a href="#contact">连线 ↗</a>
+          </div>
+        </article>
+
+        <article class="panel card">
+          <span class="icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4.5 6h9M4.5 11h6M4.5 16h4"/><path d="M19.8 5.6 17.3 3.1 8 12.4v4.5h4.5z"/></svg>
+          </span>
+          <div class="body">
+            <span class="eyebrow">Essays &amp; Book</span>
+            <h3>懂一点就够了</h3>
+            <p>数字游牧、极简工作法随笔与连载书稿，探寻工具与生活之间自如的平衡点。</p>
+          </div>
+          <div class="foot">
+            <span class="who">专栏公开草稿</span>
+            <a href="#contact">订阅 ↗</a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="browser">
+    <div class="wrap split">
+      <div class="copy">
+        <span class="flag">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8.2"/><path d="m8.4 12.2 2.5 2.5 4.7-5"/></svg>
+          Flagship · 懂一点科技
+        </span>
+        <h2>极轻浏览器</h2>
+        <p class="quote hi">工具栏悬浮，滑动时收起，屏幕上只剩网页。</p>
+        <!-- 占位：毫秒级启动、极小极快这些数字还没实测，等你改文案时一起定 -->
+        <p>毫秒级启动，无干扰阅读排版与随手 Markdown 笔记。支持 Windows 与 Android，极小极快。</p>
+        <div class="actions">
+          <a class="btn btn-ink" href="#browser">免费体验下载
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11M7.5 10.5 12 15l4.5-4.5M4.5 20h15"/></svg>
+          </a>
+          <a class="btn btn-line" href="mailto:hello@example.com?subject=%E6%9E%81%E8%BD%BB%E6%B5%8F%E8%A7%88%E5%99%A8%E5%AE%9A%E5%88%B6%E5%92%A8%E8%AF%A2">企业 / 个人定制
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4.5 8h4M13.5 8h6M4.5 16h6M15.5 16h4"/><circle cx="11" cy="8" r="2.4" style="fill:var(--paper)"/><circle cx="13" cy="16" r="2.4" style="fill:var(--paper)"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="panel mock">
+        <div class="mock-bar">
+          <span class="dots" aria-hidden="true"><i></i><i></i><i></i></span>
+          <!-- 占位：域名还没定 -->
+          <span class="url">light-browser.dyd.tech</span>
+          <span class="chip">Win &amp; Android</span>
+        </div>
+        <div class="mock-body">
+          <span class="toolbar" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 5 4.5 12 11 19"/></svg>
+            <span class="addr">https://...</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="5" width="16" height="14" rx="2"/><path d="M8 9.5h8M8 13h8M8 16h5"/></svg>
+            <svg class="up" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 14.5 6-6 6 6"/></svg>
+          </span>
+          <h4>纯净阅读，不被打扰</h4>
+          <p class="sub">滑下收起工具栏 · 零内存冗余 · Markdown 随手笔记</p>
+          <!-- 占位：这两个数值是设计稿里带的，没实测过 -->
+          <p class="stat">RAM &lt; 40MB · 冷启动 180ms · 点对点局域网互传</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="band" id="principles">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="eyebrow">Principles / 核心理念</span>
+      </div>
+      <div class="chips">
+        <div class="chip"><b>极轻</b><span>绝不浪费一兆内存</span></div>
+        <div class="chip"><b>无负担</b><span>用完即走 · 不搞绑架</span></div>
+        <div class="chip"><b>以人为本</b><span>Local-First 数据自控</span></div>
+        <div class="chip"><b>保持幽默</b><span>把技术画成白话漫画</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="wrap wrap-narrow hero center">
+      <span class="eyebrow">Connect with DYD Lab</span>
+      <h2>和懂一点实验室保持连线</h2>
+      <!-- 占位：24 小时回复这个承诺先别写死 -->
+      <p class="lede">探讨极轻软件、商业与品牌定制，或单纯打个招呼。通常 24 小时内回复。</p>
+      <div class="actions">
+        <a class="btn btn-line" href="mailto:hello@example.com">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5.5" width="18" height="13" rx="2"/><path d="m4.5 7.5 7.5 5.5 7.5-5.5"/></svg>
+          hello@example.com
+        </a>
+        <a class="btn btn-line" href="https://github.com/dyd-tech" rel="noopener" target="_blank">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 8-4.5 4L9 16M15 8l4.5 4L15 16"/></svg>
+          GitHub / dyd-tech
+        </a>
+        <a class="btn btn-line" href="#contact">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5a6.5 6.5 0 0 1 6.5 6.5M5 6.5A12.5 12.5 0 0 1 17.5 19"/><circle cx="5.4" cy="18.6" r="1.5" fill="currentColor" stroke="none"/></svg>
+          RSS
+        </a>
+      </div>
+    </div>
+  </section>
+
 </main>
 
-<footer id="contact" class="foot">
+<footer class="site-foot">
   <div class="wrap foot-line">
-    <span class="label mono">联系</span>
-    <!-- 全站只有这一处需要替换：换成真实邮箱地址 -->
-    <a class="mono" href="mailto:hello@example.com">hello@example.com</a>
-    <a class="mono" href="https://github.com/dyd-tech">github.com/dyd-tech</a>
+    <span class="who">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2.5" y="2.5" width="19" height="19" rx="4.5"/><rect x="6.5" y="6.5" width="4" height="4" fill="currentColor" stroke="none"/><rect x="6.5" y="13.2" width="11" height="4.2" rx="1" style="fill:var(--hi)"/></svg>
+      懂一点实验室 · DYD Lab
+    </span>
+    <span class="copy">© 2026 DYD Lab. 保持好奇，懂一点就好。</span>
+    <nav aria-label="页脚导航">
+      <a href="#divisions">板块</a>
+      <a href="#browser">极轻浏览器</a>
+      <a href="#contact">联络</a>
+    </nav>
   </div>
 </footer>
+
 </body>
 </html>
